@@ -1,0 +1,76 @@
+body{
+    background-color: blanchedalmond;
+    //background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#hed_text{
+    width: 100%;
+    margin: auto;
+    vertical-align: center;
+}
+#hed_text h2{
+    font:40px sans-serif;
+    font-weight: bolder;
+    color:rgb(255,92,33);
+    position: relative;
+    text-align: center;
+    top: 70px;
+}
+#header1{
+
+    border-radius: 15px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    height: 120px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 5px grey;
+    position: relative;
+
+}
+#header1 h3{
+    width: 80%;
+    color: #8f5536;
+    font: 30pt sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    margin: auto;
+}
+.spacer{
+    height: 7px;
+}
+#main{
+    width: 80%;
+    margin: auto ;
+
+
+}
+#tabs{
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.section_title {
+    //text-decoration: underline;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#8f5536;
+
+}
+
+.section_title > a:visited,a{
+
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14pt;
+    color:#8f5536;
+}
+.section_title a:hover{
+    font-size: 16pt;
+}
