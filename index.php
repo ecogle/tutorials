@@ -1,5 +1,5 @@
 <?php
-    echo file_get_contents('./templates/head.php')
+    include './templates/head.php';
 ?>
 
 <div id="main">
@@ -10,15 +10,25 @@
     </div>
 
     <div id="tabs">
+        <ul>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#js">Javascript</a></li>
+            <li><a href="#jquery">JQuery</a></li>
+            <li><a href="#jqueryui">jQueryUI</a></li>
+            <li><a href="#jqueryuimobile">jQueryUI Mobile</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#sql">SQL</a></li>
+            <li><a href="#css">CSS</a></li>
 
-        <?php include "getTabs.php"?>
-
-        <div id="javascript"><p>This is the home for Javascript</p></div>
+        </ul>
+        <div id="js">
+            <p>This is the home for Javascript</p>
+        </div>
         <div id="java"><?php include 'java.php'; ?></div>
         <div id="jquery"><p>This is the home for jQuery</p></div>
         <div id="jqueryui"><p>This is the home for jQueryUI</p></div>
         <div id="jqueryuimobile"><p>This is the home for jQueryUIMobile</p></div>
-        <div id="sql"><?php include 'sql.php'?></div>
+        <div id="sql"><p>This is the home for SQL</p></div>
         <div id="html"><p></p><?php include 'html.php'; ?></div>
         <div id="css">Home of the CSS</div>
     </div>
@@ -32,5 +42,5 @@
 
 </script>
 <?php
-    echo file_get_contents('./templates/footer.php');
+    include './templates/footer.php';
 ?>
