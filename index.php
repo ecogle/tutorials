@@ -22,9 +22,10 @@
 
         </ul>
         <div id="js">
-            <p>This is the home for Javascript</p>
+            <?php include 'javascript.php';?>
         </div>
         <div id="java"><?php include 'java.php'; ?></div>
+
         <div id="jquery"><p>This is the home for jQuery</p></div>
         <div id="jqueryui"><p>This is the home for jQueryUI</p></div>
         <div id="jqueryuimobile"><p>This is the home for jQueryUIMobile</p></div>
