@@ -85,18 +85,21 @@ public class BankAccount {
     var javaEditor1 = CodeMirror.fromTextArea(document.getElementById("editor1"), {
         lineNumbers: true,
         matchBrackets: true,
-        mode: "text/x-java"
+        mode: "text/x-java",
+        readOnly:true
     });
     javaEditor1.setSize(null,'100px');
     var javaEditor2 = CodeMirror.fromTextArea(document.getElementById("editor2"), {
         lineNumbers: true,
         matchBrackets: true,
-        mode: "text/x-java"
+        mode: "text/x-java",
+        readOnly:true
     });
     var javaEditor3 = CodeMirror.fromTextArea(document.getElementById("editor3"), {
         lineNumbers: true,
         matchBrackets: true,
-        mode: "text/x-java"
+        mode: "text/x-java",
+        readOnly:true
     });
     javaEditor3.setSize(null,'160px');
 </script>

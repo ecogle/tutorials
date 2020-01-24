@@ -50,14 +50,16 @@
     var javaScriptEditor = CodeMirror.fromTextArea(document.getElementById("jseditor1"), {
         lineNumbers: true,
         matchBrackets: true,
-        mode: "text/javascript"
+        mode: "text/javascript",
+        readOnly:true
     });
     javaScriptEditor.setSize(null,'160px');
 
     var javaScriptEditor0 = CodeMirror.fromTextArea(document.getElementById("jseditor0"), {
         lineNumbers: true,
         matchBrackets: true,
-        mode: "text/html"
+        mode: "text/html",
+        readOnly:true
     });
     javaScriptEditor0.setSize(null,'180px');
 </script>

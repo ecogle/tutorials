@@ -18,7 +18,8 @@
 <script type="text/javascript">
     var javaEditor = CodeMirror.fromTextArea(document.getElementById("data_list"), {
         mode: "text/html",
-        lineNumbers:true
+        lineNumbers:true,
+        readOnly:true
     });
     javaEditor.save();
 </script>
