@@ -82,20 +82,21 @@ public class BankAccount {
 </textarea>
 
 <script type="text/javascript">
-    var javaEditor = CodeMirror.fromTextArea(document.getElementById("editor1"), {
+    var javaEditor1 = CodeMirror.fromTextArea(document.getElementById("editor1"), {
         lineNumbers: true,
         matchBrackets: true,
         mode: "text/x-java"
     });
-
-    var javaEditor = CodeMirror.fromTextArea(document.getElementById("editor2"), {
+    javaEditor1.setSize(null,'100px');
+    var javaEditor2 = CodeMirror.fromTextArea(document.getElementById("editor2"), {
         lineNumbers: true,
         matchBrackets: true,
         mode: "text/x-java"
     });
-    var javaEditor = CodeMirror.fromTextArea(document.getElementById("editor3"), {
+    var javaEditor3 = CodeMirror.fromTextArea(document.getElementById("editor3"), {
         lineNumbers: true,
         matchBrackets: true,
         mode: "text/x-java"
     });
+    javaEditor3.setSize(null,'160px');
 </script>
